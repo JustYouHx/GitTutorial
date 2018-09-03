@@ -1,0 +1,25 @@
+一、准备工作
+	1、 下载安装git
+	2、 注册github账号
+	3、
+二、上传代码到github
+	1、 在github创建新的仓库
+	2、 在本地创建需上传github的文件目录
+	3、 在本地目录右键打开git bash
+	4、 初始化git仓库：git init
+	5、 查看当前目录：ls -a
+	6、 查看当前版本库状态，未管理的文件为红色：git status
+	7、 将文件或文件夹加入缓冲区,a表示文件名：git add a
+	8、 查看当前版本库状态，已管理的文件为绿色：git status
+	9、 提交缓冲区的文件到git本地库上，msg为提交信息：git commit -m "msg"
+	10、 查看提交log信息：git log
+	11、 添加远程仓库：git remote add origin https://github.com/JustYouHx/LeetCode.github
+	12、 将代码推送到远程仓库：git push -u origin master
+	
+三、从github更新代码
+	1、 更新代码：git pull
+	
+四、从github下载新的代码
+	1、 到github网站复制要下载的代码路径
+	2、 在本地gitbash上：git clone https://...
+	
